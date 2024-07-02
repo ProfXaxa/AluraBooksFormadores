@@ -1,8 +1,10 @@
 @import url(/styles/header.css);
+@import url(styles/banner.css);
 :root{
     --cor-de-fundo:#EBECEE;
     --branco:#FFFFFF;
     --laranja: #FECD2F;
+    --azul-degrade: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
     --fonte-principal:"poppins";
 }
 body{
@@ -10,16 +12,4 @@ body{
     font-family: var(--fonte-principal);
     font-size: 16px;
     font-weight: 400;
-}
-.cabeçalho{
-    background-color: var(--branco);
-    display: flex;
-    justify-content: space-between;;
-}
-.container{
-    display: flex;
-    align-items: center;
-}
-.container__imagem{
-    padding: 1em;
 }
